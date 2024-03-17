@@ -4,6 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primaryColor">#31255A</color>
     <color name="buttonColor">#8FE0FF</color>
+    <color name="InActiveColor">#3F51B5</color>
+    <color name="ActiveColor">#2196F3</color>
     <color name="textColorPrimary">#75B4E3</color>
     <color name="blue_violet">#54416D</color>
     <color name="dark_blue">#2B235A</color>
