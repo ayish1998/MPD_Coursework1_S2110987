@@ -1,11 +1,12 @@
-//Author: Ayishatu Saeed
-//Student Number:  S2110987
+//
+// Name:__Ayishatu Saeed__
+// Student ID:__S2110987__
+// Programme of Study:__Mobile Platform Development__
+//
 package com.example.coursework1;
 
 public class OnboardingItem {
     private int image;
-    private String title;
-    private String description;
 
     public int getImage() {
         return image;
@@ -30,4 +31,15 @@ public class OnboardingItem {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    private String title;
+    private String description;
+
+    public OnboardingItem(int image, String title, String description) {
+        this.image = image;
+        this.title = title;
+        this.description = description;
+    }
+
+    // Getters and setters
 }

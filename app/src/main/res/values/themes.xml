@@ -1,9 +1,9 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Coursework1" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <style name="Theme.Coursework1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- For example, to change the primary color: -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/dark_blue</item>
     </style>
-
-    <style name="Theme.Coursework1" parent="Base.Theme.Coursework1" />
 </resources>

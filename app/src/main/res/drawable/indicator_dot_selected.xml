@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="#FF4081"/> <!-- Pink color for the selected dot -->
+            <size android:width="10dp" android:height="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#D3D3D3"/> <!-- Light gray color for the unselected dot -->
+            <size android:width="10dp" android:height="10dp"/>
+        </shape>
+    </item>
+</selector>
