@@ -1,9 +1,20 @@
 <resources>
-    <string name="app_name">Coursework!</string>
+    <string name="app_name">WeatherWise</string>
     <string name="author">Author: AyishatuSaeed</string>
-    <string name="intro_next">Next</string>
-    <string name="intro_skip">Skip</string>
-    <string name="intro_back">Skip</string>
+    //Headings
+    <string name="heading_one">Welcome to WeatherWise</string>
+    <string name="heading_two">Stay Updated</string>
+    <string name="heading_three">Plan Your Day</string>
+    <string name="heading_fourth">Stay Prepared</string>
+
+
+    //Description
+    <string name="desc_one">Stay informed about the weather conditions in your area and beyond with Weather Insight. Get real-time updates, accurate forecasts, and personalized weather notifications to help you plan your day.</string>
+    <string name="desc_two">Get the latest weather updates and forecasts at your fingertips. Whether you\'re planning a trip or just want to know if you need an umbrella, WeatherWise Insight has you covered.</string>
+    <string name="desc_three">Use WeatherWise Insight to plan your day with confidence. Whether it\'s a picnic, a hike, or just a walk in the park, know the weather conditions in advance.</string>
+    <string name="desc_fourth">Stay informed and prepared for any weather conditions. Whether you\'re at home or traveling, WeatherWise Insight keeps you updated with reliable forecasts and alerts.</string>
+
+    <string name="skipButton">Skip</string>
     <string name="mauritius">Mauritius</string>
     <string name="pressure">Pressure:</string>
     <string name="visibility">Visibility:</string>
@@ -20,4 +31,21 @@
     <string name="search_fragment">Search Fragment</string>
     <string name="about_fragment">About Fragment</string>
     <string name="intro_lets_start">Let\'s Start</string>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="wed_march_27_15_04">Wed March 27|15:04</string>
+    <string name="wed_march_27_15_10">Wed March 27 | 15:10</string>
+    <string name="locations">Locations</string>
+    <string name="_28">28°</string>
+    <string name="h_27_l_18">H:27 L:18</string>
+    <string name="_22">22%</string>
+    <string name="wind">Wind</string>
+    <string name="rain">Rain</string>
+    <string name="today">Today</string>
+    <string name="_3_days_forecast"><![CDATA[3 days forecast >]]></string>
+    <string name="todo">TODO</string>
+    <string name="_18">18%</string>
+    <string name="weatherwise">WeatherWise</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
 </resources>

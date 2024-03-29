@@ -1,9 +1,11 @@
 <resources>
-    <style name="Theme.Coursework1" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.Coursework1" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <!-- For example, to change the primary color: -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryColor</item>
         <item name="colorAccent">@color/dark_blue</item>
     </style>
+
+
 </resources>

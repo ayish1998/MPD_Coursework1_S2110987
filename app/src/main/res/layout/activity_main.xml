@@ -6,113 +6,106 @@
     android:layout_height="match_parent"
     android:background="@color/primaryColor"
     tools:context=".MainActivity">
-
     <include layout="@layout/activity_main_navigation"
         android:id="@+id/includeNavigation"
         android:visibility="gone"/>
 
-    <!--ViewPager2-->
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/tabLayout" />
 
-    <!--indicator-->
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnNext"
-        app:tabBackground="@drawable/intro_tab_selector"
-        app:tabGravity="center"
-        app:tabIndicatorHeight="0dp"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <!--Skip Button-->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSkip"
+    <Button
+        android:id="@+id/skipButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/intro_skip"
-        app:cornerRadius="30dp"
-        android:textAllCaps="true"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:background="#00000000"
+        android:text="@string/skip"
         android:textColor="@color/buttonColor"
-        android:textStyle="bold"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 
-    <!--Back Button-->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:text="@string/intro_back"
-        app:cornerRadius="30dp"
-        android:textAllCaps="true"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:backgroundTint="@color/buttonColor"
-        android:textColor="@color/dark_blue"
-        android:textStyle="bold"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
-
-    <!--Next Button-->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnNext"
-        app:cornerRadius="30dp"
+    <ImageView
+        android:id="@+id/ellipse1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp"
-        android:backgroundTint="@color/buttonColor"
-        android:gravity="center"
-        android:text="@string/intro_next"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textColor="@color/dark_blue"
-        android:textStyle="bold"
+        android:src="@drawable/ellipse1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:contentDescription="TODO"/>
 
 
+    <ImageView
+        android:id="@+id/ellipse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="@color/white"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textColor="@color/white"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ellipse2"/>
 
 
     <LinearLayout
-        android:id="@+id/layoutOnboardingIndicators"
+        android:id="@+id/indicator_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@id/slideViewPager">
+
+        </LinearLayout>
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewOnboarding"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

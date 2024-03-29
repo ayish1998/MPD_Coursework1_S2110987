@@ -7,8 +7,8 @@
         android:title="@string/home" />
     <item
         android:id="@+id/search"
-        android:icon="@drawable/baseline_search_24"
-        android:title="@string/search" />
+        android:icon="@drawable/baseline_near_me_24"
+        android:title="@string/locations" />
     <item
         android:id="@+id/about"
         android:icon="@drawable/baseline_error_outline_24"
