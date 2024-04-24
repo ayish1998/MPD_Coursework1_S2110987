@@ -1,4 +1,4 @@
-package com.example.coursework1.Domains;
+package com.example.ayishatusaeedS2110987.Domains;
 
 public class FutureDomain {
     private String day;
@@ -7,6 +7,7 @@ public class FutureDomain {
     private int highTemp;
     private int lowTemp;
 
+    // Constructor
     public FutureDomain(String day, String picPath, String status, int highTemp, int lowTemp) {
         this.day = day;
         this.picPath = picPath;
@@ -54,4 +55,7 @@ public class FutureDomain {
     public void setLowTemp(int lowTemp) {
         this.lowTemp = lowTemp;
     }
+
+
 }
+

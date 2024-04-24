@@ -77,12 +77,11 @@
                             android:textSize="20sp"/>
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@id/textViewTemperature"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="8dp"
-                            android:text="25"
                             android:textColor="@color/white"
                             android:textSize="43sp" />
 
@@ -120,7 +119,7 @@
                             tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:id="@+id/visibilityTextView"
+                            android:id="@+id/textViewVisibility"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textAlignment="center"
@@ -153,7 +152,7 @@
                             tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:id="@+id/windSpeedTextView"
+                            android:id="@+id/textViewWindDirection"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textAlignment="center"
@@ -186,7 +185,7 @@
                             tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:id="@+id/humidityTextView"
+                            android:id="@+id/textViewHumidity"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textAlignment="center"

@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.coursework1"
+    namespace = "com.example.ayishatusaeedS2110987"
     compileSdk = 34
 
     defaultConfig {
@@ -49,5 +49,9 @@ dependencies {
 
 
     implementation ("androidx.viewpager:viewpager:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.navigation:navigation-fragment:2.7.6")
+    implementation("androidx.navigation:navigation-ui:2.7.6")
 
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_names">
+        <item>Glasgow</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Oman</item>
+        <item>Mauritius</item>
+        <item>Bangladesh</item>
+    </string-array>
+    <integer-array name="location_ids">
+        <item>2648579</item>
+        <item>2643743</item>
+        <item>5128581</item>
+        <item>287286</item>
+        <item>934154</item>
+        <item>1185241</item>
+    </integer-array>
+</resources>

@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:background="@color/primaryColor"
     tools:context=".SearchFragment">
+    <!-- Include the BottomNavigationView at the bottom -->
+    <include layout="@layout/activity_fragment_navigation" />
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/primaryColor"
     tools:context=".MainActivity">
-    <include layout="@layout/activity_main_navigation"
-        android:id="@+id/includeNavigation"
-        android:visibility="gone"/>
+
 
 
     <Button
@@ -77,35 +75,34 @@
         android:id="@+id/indicator_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
+        android:weightSum="1"
         android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@id/slideViewPager">
-
-        </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

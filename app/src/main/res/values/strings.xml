@@ -48,4 +48,14 @@
     <string name="skip">Skip</string>
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="s2110987">S2110987</string>
+    <string name="weatherwise_app">WeatherWise App</string>
+    <string name="max_temp">max-temp</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
 </resources>

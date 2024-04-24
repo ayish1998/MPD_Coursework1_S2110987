@@ -3,7 +3,7 @@
 // Student ID:__S2110987__
 // Programme of Study:__Mobile Platform Development__
 //
-package com.example.coursework1;
+package com.example.ayishatusaeedS2110987;
 
 import android.content.Context;
 import android.view.LayoutInflater;
